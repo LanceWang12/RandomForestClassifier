@@ -65,5 +65,4 @@
 - Algorithm: 參考 **[Random Forest](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf "Random Forest")**
 - Speed up: 除了利用 Cython，也使用平行處理加速訓練速度，但**速度仍差 sklearn 好大一截**
 
-**Demo 請參考 main.py\n**
-**環境如 env.txt 所示**
+**Demo 請參考 main.py, 環境如 env.txt 所示**
