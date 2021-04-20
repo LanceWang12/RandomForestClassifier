@@ -34,7 +34,7 @@
 
 ## 4. Implementation:
 
-- Algorithm: 參考 **[Cart Decision Tree](ftp://ftp.boulder.ibm.com/software/analytics/spss/support/Stats/Docs/Statistics/Algorithms/14.0/TREE-CART.pdf "Cart Decision Tree")**
+- Algorithm: 參考 **[Cart Decision Tree](https://www.researchgate.net/publication/216526201_An_Improved_CART_Decision_Tree_for_Datasets_with_Irrelevant_Feature "Cart Decision Tree")**
 - Speed up: 利用 Cython 將迴圈及基尼計算式等複雜計算打包成 C code 編譯並加速，但**速度仍差 sklearn 好大一截**
 
 # Random Forest Classifier
