@@ -39,7 +39,7 @@
 
 # Random Forest Classifier
 
-<img src="/Users/wangruicheng/Desktop/Work/Data Mining/midtern/image/forest.jpg" alt="forest" style="zoom:45%;" />
+<img src="./image/forest.jpg" alt="forest" style="zoom:45%;" />
 
 ## 1. The parameters :
 
