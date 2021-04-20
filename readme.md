@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Decision Tree Classifier
 
 <img src="./image/tree.PNG" style="zoom:70%;" />
@@ -13,8 +12,8 @@
 
 - max_features: 分裂時遍歷的特徵數，可選參數如下：
   - float (0, 1]: 選擇幾成的特徵
-  - 'sqrt': 遍歷 $$\sqrt{features}$$  的特徵
-  - 'log2': 遍歷 $$\log2{(features)}$$ 的特徵
+  - 'sqrt': 遍歷 sqrt(features) 的特徵
+  - 'log2': 遍歷 log2(features)的特徵
 - min_impurity_decrease: 分裂時下降的不純度要大於該參數
 - min_impurity_split: 分裂時不純度要大於該參數
 - class_weight: 
